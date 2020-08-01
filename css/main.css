@@ -115,6 +115,7 @@ h2 {
 }
 h3, h4 {
   font-size: 1.125em;
+  color: #fff;
 }
 p {
   font-size: 0.875em;
@@ -187,6 +188,40 @@ header  h3 {
 
 
 }
+/*** footer Styles ****/
+footer .container{
+  background-color: #1f1f1f;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+footer .social-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  text-transform: uppercase;
+
+}
+footer .social-icons{
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 30px;
+}
+footer p{
+  padding: 30px;
+}
+footer .copyright {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.copyright p {
+  color: #fff;
+}
+
 
 
 /* ==========================================================================
